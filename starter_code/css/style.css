@@ -58,16 +58,43 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+header h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 300%;
+  margin: 0px 100px;
+}
+
+header h2 {
+  margin: 200px 0px 200px 0px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+
+
 
 }
 
+#button1 {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background: yellow;
+  font-weight: bolder 900;
+  font-size: 24px;
+}
+
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+  background: url(../images/header_bg.jpg) no-repeat center  rgb(134,141,157);
+  
+}
+
+
+
+main {
+  background-color: #f0efef;
 }
 
 footer {
