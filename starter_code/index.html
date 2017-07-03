@@ -5,57 +5,49 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Blank Template</title>
+		<title>Relaxr</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans">
-
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,600i,700,800" rel="stylesheet">
 	</head>
+	
+
 	<body>
-		<header>				
-			<h1>Relaxr</h1>
-				<h2>Get piece of mind with a single tap</h2>
-				
-				<button id="button1"> Get it Now </button>
-				</div>	
+		<div id="container">
+			<header>
+				<h1 id="Relaxr">Relaxr</h1>
+				<h2 id="tagLine">Get piece of mind with a single tap</h2>
+				<button id="getItButton" type="button">Get it Now</button>
 			</header>
-			
-			
-		<main>
-				<h1> Benefits </h1>
-				<p> The perfect person assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
-				<ul>
-					<li> Schedule meetings for you</li>
-					<li> Excel automation to complete your work for you</li>
-					<li>Responds to email on your behalf</li>
-					<li>Does all your work for you with our revolutionary AI technology</li>
-				</ul>
-		</main>
-
-			<section>
-				<p> "Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work." </p>
-				<h3> - Amanda, Inuit</h3>
-			</section>
-
-			<nav id="sign_up_button">
-				<button> Sign up Now! </button>
-			</nav>
-
-			<nav id="social">
-				<h1> Relaxr</h1>
-				<button style="background: url(twitter.png)"/>
-				<button style="background: url(facebook.png)"/>
-
-			</nav>
-
-
-
-
+		<div class="benefits">
+			<h2 id=benefitHeadline>Benefits</h2>
+			<p>
+				The perfect personal assistant. Relaxr does your job<br>
+				for you so you can enjoy life as it is meant to be.
+			</p>
+			<ul class="benefitsList">
+				<li>Schedule meetings for you</li>
+				<li>Excel automation to complete your work for you</li>
+				<li>Responds to emails on your behalf</li>
+				<li>Does all your work for you with our revolutionary AI technology</li>
+			</ul>
+		</div>
+		<div class="testimonial">
+			<p id="testimonialQuote">“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”</p>
+			<h3 id="quoteAuthor">- Amanda, Intuit</h3>
+		</div>
+		<div id="signUp">
+			<button id ="sign" type="button">Sign Up Now!</button>
+		</div>
 			<footer>
-				&copy; Footer Goes Here
+				<h2>Relaxr</h2>
+				<img id="twitter" src="images/twitter.png"></img>
+				<img id="facebook" src="images/facebook.png"></img>
+				<p id="copy"> &copy; 2017. Relaxr.</p>
 			</footer>
+		</div>
 		
 	</body>
 </html>
